@@ -109,7 +109,7 @@ export const mids3Elements = {
   InstitutionID: exists('INSTITUTION_KEY'),
   CollectorID: exists('RECORDED_BY_ID'),
   // todo: is this ok?
-  ScientificNameID: exists('TAXON_ID'),
+  ScientificNameID: exists('SCIENTIFIC_NAME_ID'),
   IdentifiedByID: exists('IDENTIFIED_BY_ID'),
 };
 
